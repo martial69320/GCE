@@ -1,0 +1,81 @@
+﻿## Interface: 70300
+## Title: Guild Calendar Event
+## Version: 6.0.1
+## Notes: Enhancements for in-game calendar, (c) 2018 - 2018  Martial69320
+
+## Title-zhTW: |cFFFF6600團體行事曆|r Guild Calendar Event
+## Notes-zhTW: 團隊行事曆
+
+## Title-zhCN: |cFFFF6600团体行事历|r Guild Calendar Event
+## Notes-zhCN: 团体活动行事历
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: GuildCalendarEvent_Data, GuildCalendarEventClock_Data, GuildCalendarEventUI_Data
+## OptionalDeps: GuildMains
+
+## X-ReloadTag: 2
+
+GuildCalendarEvent_Prefix.lua
+
+utf8data.lua
+utf8.lua
+
+GuildCalendarEvent_Strings.lua
+GuildCalendarEvent_Strings_cn.lua
+GuildCalendarEvent_Strings_de.lua
+GuildCalendarEvent_Strings_es.lua
+GuildCalendarEvent_Strings_fr.lua
+GuildCalendarEvent_Strings_hu.lua
+GuildCalendarEvent_Strings_kr.lua
+GuildCalendarEvent_Strings_ru.lua
+GuildCalendarEvent_Strings_tw.lua
+
+MC2AddonLib.lua
+MC2DebugLib.lua
+MC2EventLib.lua
+MC2SchedulerLib.lua
+MC2DateLib.lua
+MC2BroadcastLib.lua
+MC2UIElementsLib.lua
+MC2GuildLib.lua
+MC2RaidLib.lua
+
+GC5ScheduleLib.lua
+GC5ClockLib.lua
+
+GuildCalendarEvent.lua
+
+GuildCalendarEvent_MD5.lua
+GuildCalendarEvent_Textures.lua
+GuildCalendarEvent_Character.lua
+GuildCalendarEvent_Cooldowns.lua
+GuildCalendarEvent_Tradeskill.lua
+GuildCalendarEvent_Reminders.lua
+GuildCalendarEvent_Event.lua
+GuildCalendarEvent_Alts.lua
+GuildCalendarEvent_Alliance.lua
+GuildCalendarEvent_iCal.lua
+
+GuildCalendarEvent_Clock.lua
+
+GuildCalendarEventUI.lua
+GuildCalendarEvent_Party.lua
+GuildCalendarEvent_EventLimits.lua
+GuildCalendarEvent_Whispers.lua
+
+GuildCalendarEvent_Window.lua
+
+GuildCalendarEventView_Month.lua
+GuildCalendarEventView_About.lua
+GuildCalendarEventView_Alliance.lua
+GuildCalendarEventView_Settings.lua
+GuildCalendarEventView_Export.lua
+
+GuildCalendarEventView_Event.lua
+GuildCalendarEventView_Day.lua
+
+GuildCalendarEventEvent_Editor.lua
+GuildCalendarEventEvent_Viewer.lua
+GuildCalendarEventEvent_Group.lua
+GuildCalendarEventEvent_Invite.lua
